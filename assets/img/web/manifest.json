@@ -100,16 +100,6 @@
     "desc": "HR-level view of all leave requests company-wide, with options to update, void, or override a request."
   },
   {
-    "file": "21-leave-summary.png",
-    "title": "Leave Summary",
-    "desc": "Consolidated summary of leave usage per employee, with Add/View/Delete actions."
-  },
-  {
-    "file": "22-leave-summary-add.png",
-    "title": "Add Leave Entry",
-    "desc": "Form for manually recording a leave entry in an employee’s summary."
-  },
-  {
     "file": "23-leave-calendar.png",
     "title": "Leave Calendar",
     "desc": "Company-wide calendar view of approved leaves, holidays, and events."
