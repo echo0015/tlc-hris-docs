@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immediate Heads — Web App Docs — TLC-HRIS</title>
+<link rel="icon" type="image/svg+xml" href="../assets/img/hris-logo.svg">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand"><img src="../assets/img/hris-logo.svg" alt=""> <span class="brand-text">TLC-HRIS Docs</span></div>
+  <div class="topbar-actions">
+    <a class="pill-link" href="../index.html">&larr; Home</a>
+    <a class="pill-link current" href="../web.html">Web App</a>
+    <a class="pill-link " href="../mobile.html">Mobile App</a>
+  </div>
+  <button class="menu-btn" aria-label="Toggle navigation">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</header>
+
+<div class="docs-shell">
+  <aside class="sidebar">
+    <div class="sidebar-group">
+      <h4>Getting Started</h4>
+      <a class="nav-link" href="login.html">Login</a>
+      <a class="nav-link" href="dashboard.html">Dashboard</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Employee Management</h4>
+      <a class="nav-link" href="employees.html">Employee Management</a>
+      <a class="nav-link" href="faculty.html">Faculty List</a>
+      <a class="nav-link active" href="immediate-heads.html">Immediate Heads</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Organization Setup</h4>
+      <a class="nav-link" href="departments.html">Departments</a>
+      <a class="nav-link" href="colleges.html">Colleges</a>
+      <a class="nav-link" href="positions.html">Company Positions</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Leave Management</h4>
+      <a class="nav-link" href="leave-types.html">Leave Types</a>
+      <a class="nav-link" href="leave-credit.html">Leave Credit Allocation</a>
+      <a class="nav-link" href="leave-requests.html">Leave Requests</a>
+      <a class="nav-link" href="leave-calendar.html">Leave Calendar</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Overtime / CTO / OBT</h4>
+      <a class="nav-link" href="overtime.html">Overtime</a>
+      <a class="nav-link" href="cto.html">CTO</a>
+      <a class="nav-link" href="obt.html">OBT</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Timekeeping</h4>
+      <a class="nav-link" href="holidays.html">Holidays & Non-Working Days</a>
+      <a class="nav-link" href="cutoff.html">Cut-Off Dates</a>
+      <a class="nav-link" href="attendance.html">Daily Attendance</a>
+      <a class="nav-link" href="attendance-summary.html">Attendance Summary Reports</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Administration</h4>
+      <a class="nav-link" href="user-accounts.html">User Accounts</a>
+      <a class="nav-link" href="user-permissions.html">User Types & Permissions</a>
+      <a class="nav-link" href="system-logs.html">System Logs</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Account</h4>
+      <a class="nav-link" href="profile.html">My Profile</a>
+      <a class="nav-link" href="notifications.html">Notifications</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Help</h4>
+      <a class="nav-link" href="#faq">FAQ</a>
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="breadcrumb">
+      <a href="../web.html">Web App</a><span class="sep">/</span><span class="current">Immediate Heads</span>
+    </div>
+    <div class="page-hero" style="padding-top:0;">
+      <h1 style="font-size:26px;"><span class="section-icon" style="display:inline-flex; vertical-align:middle; margin-right:8px;">🧑‍💼</span>Immediate Heads</h1>
+      <p class="lead">Assigns which employees serve as an immediate head, and who reports to them. This assignment drives the approval workflow — an employee's Leave/Overtime/CTO/OBT requests are routed to their immediate head before HR.</p>
+    </div>
+
+    <section id="immediate-heads" class="doc-section" style="margin-bottom:0; padding-top:0;">
+
+      <div class="shot-grid">
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/55-immediate-heads-list.png" alt="Immediate Heads list"></div>
+          <figcaption><div class="cap-title"><span class="badge b-view">Display</span> Immediate Heads List</div><p>One row per employee who serves as a head, showing their department and a count badge of how many employees currently report to them. The <strong>Actions</strong> column opens the team roster.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/56-immediate-heads-assign.png" alt="Assign Employee to Head modal"></div>
+          <figcaption><div class="cap-title"><span class="badge b-add">Add</span> Assign Employee to Head</div><p>Both fields are multi-select — assign several employees to several heads in one submission, creating every employee-to-head pairing at once.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/57-immediate-heads-team.png" alt="View Team modal"></div>
+          <figcaption><div class="cap-title"><span class="badge b-view">View</span> View Team</div><p>Lists everyone currently assigned to that head, with per-row <strong>Reassign</strong> and <strong>Remove</strong> icon actions.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/58-immediate-heads-edit.png" alt="Reassign Employee modal"></div>
+          <figcaption><div class="cap-title"><span class="badge b-edit">Edit</span> Reassign Employee</div><p>Changes a single existing assignment's employee and/or head — opened from the Reassign icon inside View Team.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/59-immediate-heads-delete-confirm.png" alt="Remove assignment confirmation"></div>
+          <figcaption><div class="cap-title"><span class="badge b-delete">Delete</span> Remove Assignment</div><p>Removing an assignment asks for confirmation first; it only unlinks that employee from that head and does not delete either employee record.</p></figcaption>
+        </figure>
+      </div>
+      <div class="rules-box">
+        <h3>Rules &amp; Validation</h3>
+        <ul>
+          <li><strong>Employee(s)</strong> and <strong>Immediate Head(s)</strong> — both required; every selected person must be an existing employee record.</li>
+          <li>An employee <strong>cannot be their own immediate head</strong> — self-assignments are rejected (skipped in bulk Assign, blocked outright in Reassign).</li>
+          <li><strong>Duplicate assignments are prevented</strong> — assigning the same employee to the same head twice is skipped rather than creating a second row.</li>
+          <li>An employee can have <strong>zero, one, or multiple</strong> immediate heads at the same time; assigning to multiple employees and multiple heads in one Assign submission creates every combination.</li>
+          <li>All actions on this page require the <strong>Update Employee Info</strong> permission.</li>
+        </ul>
+      </div>
+      <div class="note">
+        Assigning a head to an employee who had <strong>none before</strong> automatically upgrades any of that employee's pending Leave/Overtime/CTO/OBT requests that were waiting only on HR — those requests are switched to require the new head's approval before HR can act. See the <strong>Rules &amp; Validation</strong> box on <a href="../web/leave-requests.html">Leave Requests</a> for details.
+      </div>
+    </section>
+
+    <section id="faq" class="doc-section faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <p class="lead">Common questions about Immediate Heads.</p>
+      <div class="faq-item">
+        <div class="faq-q">What happens to an employee's pending requests when I assign them a head for the first time?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>If that employee had no immediate head before, any of their pending requests that only needed HR approval are automatically switched to require the new head's approval first. This keeps every request in line with the current org chart even if it was filed before the head was assigned.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can one employee report to more than one immediate head?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>Yes — an employee can be assigned to multiple heads at the same time. Each head sees that employee in their team and each can independently act as an approver.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Why was my Assign submission rejected or partially skipped?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>Assign silently skips pairings where the "employee" and "head" are the same person, and pairings that already exist, then reports how many were skipped. If every pairing you submitted falls into one of those cases, the whole request is rejected with a message explaining why.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Does removing an assignment delete the employee?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>No — Remove only deletes the head-employee link. Both employee records remain untouched and can be reassigned at any time.</p></div>
+      </div>
+    </section>
+
+    <div class="pager">
+      <a class="prev" href="faculty.html"><span class="pager-label">&larr; Previous</span><span class="pager-title">Faculty List</span></a>
+      <a class="next" href="departments.html"><span class="pager-label">Next &rarr;</span><span class="pager-title">Departments</span></a>
+    </div>
+  </main>
+</div>
+
+<div class="sidebar-overlay"></div>
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<div class="lightbox"><button class="lb-close">✕</button><img src="" alt=""></div>
+
+<footer class="docs-footer">&copy; 2026 THE LEWIS COLLEGE &mdash; TLC-HRIS Online Documentation</footer>
+
+<script src="../assets/js/script.js"></script>
+</body>
+</html>

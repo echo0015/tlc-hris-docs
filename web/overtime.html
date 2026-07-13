@@ -32,6 +32,7 @@
       <h4>Employee Management</h4>
       <a class="nav-link" href="employees.html">Employee Management</a>
       <a class="nav-link" href="faculty.html">Faculty List</a>
+      <a class="nav-link" href="immediate-heads.html">Immediate Heads</a>
     </div>
     <div class="sidebar-group">
       <h4>Organization Setup</h4>
@@ -104,6 +105,14 @@
           <div class="shot-frame"><img src="../assets/img/web/27-overtime-hr-tracking.png" alt="HR overtime tracking"></div>
           <figcaption><div class="cap-title"><span class="badge b-view">Display</span> HR Overtime Tracking</div><p>HR-level visibility into all overtime requests with tracking/override tools.</p></figcaption>
         </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/53-overtime-edit-button.png" alt="Overtime list with Edit action"></div>
+          <figcaption><div class="cap-title"><span class="badge b-edit">Edit</span> Edit Action</div><p>An <strong>Edit</strong> (pencil) icon appears next to View and Cancel for a request you can still edit yourself.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/54-overtime-edit-modal.png" alt="Edit overtime request modal"></div>
+          <figcaption><div class="cap-title"><span class="badge b-edit">Edit</span> Edit Overtime Request</div><p>Reuses the filing form, pre-filled with your current details, so you can correct a mistake before anyone approves it.</p></figcaption>
+        </figure>
       </div>
       <div class="rules-box">
         <h3>Rules &amp; Validation</h3>
@@ -115,6 +124,7 @@
           <li>Rejecting a request (by the head or HR) requires <strong>remarks</strong> (max 1000 characters) explaining why.</li>
           <li>Requests normally follow a two-step approval chain: <strong>Immediate Head</strong> &rarr; <strong>HR</strong>. If the employee has <strong>no immediate head assigned</strong>, the request skips straight to HR.</li>
           <li>If HR assigns that employee a head <strong>while the request is still awaiting HR</strong>, it is automatically routed back to require that head's approval first. Requests HR has already approved are not affected.</li>
+          <li>The employee who filed the request can <strong>edit</strong> it themselves, but only until it has <strong>at least one approval</strong> on record — once a head (or HR, for head-less employees) approves, it can no longer be edited, only viewed or cancelled.</li>
         </ul>
       </div>
     </section>
@@ -128,7 +138,7 @@
       </div>
       <div class="faq-item">
         <div class="faq-q">Can I edit or cancel an overtime request?<span class="chev">⌄</span></div>
-        <div class="faq-a"><p>You can cancel it yourself only while it is still Pending.</p></div>
+        <div class="faq-a"><p>You can edit it yourself while it's still Pending and has not yet received any approval — an Edit icon appears next to View and Cancel for eligible requests. Once at least one approval is recorded, editing locks and only cancelling remains available.</p></div>
       </div>
       <div class="faq-item">
         <div class="faq-q">What happens if the employee has no immediate head?<span class="chev">⌄</span></div>
