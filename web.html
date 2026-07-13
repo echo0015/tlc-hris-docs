@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web App Documentation — TLC-HRIS</title>
+<link rel="icon" type="image/svg+xml" href="assets/img/hris-logo.svg">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand"><img src="assets/img/hris-logo.svg" alt=""> <span class="brand-text">TLC-HRIS Docs</span></div>
+  <div class="topbar-actions">
+    <a class="pill-link" href="index.html">&larr; Home</a>
+    <a class="pill-link current" href="web.html">Web App</a>
+    <a class="pill-link " href="mobile.html">Mobile App</a>
+  </div>
+  <button class="menu-btn" aria-label="Toggle navigation">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</header>
+
+<div style="max-width: 1180px; margin: 0 auto; padding: 32px 32px 100px;">
+  <div class="page-hero">
+    <span class="eyebrow">TLC-HRIS &middot; Web Application</span>
+    <h1>Web App Documentation</h1>
+    <p>A complete walkthrough of the TLC-HRIS web application, split by module. Pick a module below for screenshots, step-by-step guidance, validation rules, and frequently asked questions.</p>
+  </div>
+
+    <div class="hub-group">
+      <h3>Getting Started</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/login.html">
+          <span class="m-icon">🔐</span>
+          <div><h4>Login</h4><p>The entry point to TLC-HRIS. Every user — HR staff, immediate heads, faculty, and rank-and-file employees …</p></div>
+        </a>
+        <a class="module-card" href="web/dashboard.html">
+          <span class="m-icon">🏠</span>
+          <div><h4>Dashboard</h4><p>The landing page after login — a quick-glance summary of the calendar and upcoming employee events.</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Employee Management</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/employees.html">
+          <span class="m-icon">👥</span>
+          <div><h4>Employee Management</h4><p>The core HR module: the master record for every employee, from personal details to employment history. Access…</p></div>
+        </a>
+        <a class="module-card" href="web/faculty.html">
+          <span class="m-icon">🎓</span>
+          <div><h4>Faculty List</h4><p>A specialized view of teaching staff with their teaching load, separate from the general employee list.</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Organization Setup</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/departments.html">
+          <span class="m-icon">🏢</span>
+          <div><h4>Departments</h4><p>Departments group employees for reporting and are tagged with a color used throughout lists, calendars, and…</p></div>
+        </a>
+        <a class="module-card" href="web/colleges.html">
+          <span class="m-icon">🏫</span>
+          <div><h4>Colleges</h4><p>Academic units (colleges), each linked to a parent department — used mainly for faculty and instructional…</p></div>
+        </a>
+        <a class="module-card" href="web/positions.html">
+          <span class="m-icon">💼</span>
+          <div><h4>Company Positions</h4><p>The list of job titles/positions assignable to employees, with Active and Archived tabs so unused positions…</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Leave Management</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/leave-types.html">
+          <span class="m-icon">📋</span>
+          <div><h4>Leave Types</h4><p>Configures the kinds of leave employees can file (e.g. Vacation, Sick, Birthday Leave) and the rules that…</p></div>
+        </a>
+        <a class="module-card" href="web/leave-credit.html">
+          <span class="m-icon">💳</span>
+          <div><h4>Leave Credit Allocation</h4><p>Tracks each employee's leave balance, per leave type, per school year.</p></div>
+        </a>
+        <a class="module-card" href="web/leave-requests.html">
+          <span class="m-icon">🗓️</span>
+          <div><h4>Leave Requests</h4><p>The end-to-end leave filing and approval workflow: an employee files a request, their immediate head approves…</p></div>
+        </a>
+        <a class="module-card" href="web/leave-summary.html">
+          <span class="m-icon">📊</span>
+          <div><h4>Leave Summary</h4><p>A consolidated, editable record of leave usage per employee — useful for manually recording leave taken…</p></div>
+        </a>
+        <a class="module-card" href="web/leave-calendar.html">
+          <span class="m-icon">📆</span>
+          <div><h4>Leave Calendar</h4><p>A company-wide monthly calendar showing approved leave so managers can see who is out at a glance.</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Overtime / CTO / OBT</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/overtime.html">
+          <span class="m-icon">⏱️</span>
+          <div><h4>Overtime</h4><p>Overtime requests follow the same My Requests / Approvals / HR Tracking pattern as leave.</p></div>
+        </a>
+        <a class="module-card" href="web/cto.html">
+          <span class="m-icon">🔁</span>
+          <div><h4>CTO (Compensatory Time-Off)</h4><p>Lets an employee convert rendered overtime into an equivalent block of time off, subject to the same approval…</p></div>
+        </a>
+        <a class="module-card" href="web/obt.html">
+          <span class="m-icon">✈️</span>
+          <div><h4>OBT (Official Business Travel)</h4><p>For employees traveling on official college business — tracks destination, purpose, cost, and who else is…</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Timekeeping</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/holidays.html">
+          <span class="m-icon">🎌</span>
+          <div><h4>Holidays & Non-Working Days</h4><p>Configures company holidays used by attendance calculations and the leave calendar.</p></div>
+        </a>
+        <a class="module-card" href="web/cutoff.html">
+          <span class="m-icon">📅</span>
+          <div><h4>Cut-Off Dates</h4><p>Defines the payroll cut-off periods that attendance summaries and reports are grouped by.</p></div>
+        </a>
+        <a class="module-card" href="web/attendance.html">
+          <span class="m-icon">🕒</span>
+          <div><h4>Daily Attendance</h4><p>The daily time-in/time-out log sourced from the biometric/attendance device, used for attendance summaries…</p></div>
+        </a>
+        <a class="module-card" href="web/attendance-summary.html">
+          <span class="m-icon">📈</span>
+          <div><h4>Attendance Summary Reports</h4><p>A per-cut-off-period report combining leave credits, daily time-in/out, and remarks for every employee — the…</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Administration</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/user-accounts.html">
+          <span class="m-icon">🧑‍💻</span>
+          <div><h4>User Accounts</h4><p>System login accounts linked to employees — separate from the employee record itself, since not every…</p></div>
+        </a>
+        <a class="module-card" href="web/user-permissions.html">
+          <span class="m-icon">🛡️</span>
+          <div><h4>User Types & Permissions</h4><p>Defines the roles in the system (e.g. HR Admin, Immediate Head, Employee) and exactly which actions each role…</p></div>
+        </a>
+        <a class="module-card" href="web/system-logs.html">
+          <span class="m-icon">🧾</span>
+          <div><h4>System Logs</h4><p>An audit trail of user actions across the system, for accountability and troubleshooting.</p></div>
+        </a>
+      </div>
+    </div>
+    <div class="hub-group">
+      <h3>Account</h3>
+      <div class="module-grid">
+        <a class="module-card" href="web/profile.html">
+          <span class="m-icon">👤</span>
+          <div><h4>My Profile</h4><p>Every signed-in user's own account settings.</p></div>
+        </a>
+        <a class="module-card" href="web/notifications.html">
+          <span class="m-icon">🔔</span>
+          <div><h4>Notifications</h4><p>In-app notifications for approvals, rejections, and other events relevant to the signed-in user.</p></div>
+        </a>
+      </div>
+    </div>
+
+</div>
+
+<footer class="docs-footer">&copy; 2026 THE LEWIS COLLEGE &mdash; TLC-HRIS Online Documentation</footer>
+
+</body>
+</html>

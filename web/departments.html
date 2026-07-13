@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Departments — Web App Docs — TLC-HRIS</title>
+<link rel="icon" type="image/svg+xml" href="../assets/img/hris-logo.svg">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand"><img src="../assets/img/hris-logo.svg" alt=""> <span class="brand-text">TLC-HRIS Docs</span></div>
+  <div class="topbar-actions">
+    <a class="pill-link" href="../index.html">&larr; Home</a>
+    <a class="pill-link current" href="../web.html">Web App</a>
+    <a class="pill-link " href="../mobile.html">Mobile App</a>
+  </div>
+  <button class="menu-btn" aria-label="Toggle navigation">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</header>
+
+<div class="docs-shell">
+  <aside class="sidebar">
+    <div class="sidebar-group">
+      <h4>Getting Started</h4>
+      <a class="nav-link" href="login.html">Login</a>
+      <a class="nav-link" href="dashboard.html">Dashboard</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Employee Management</h4>
+      <a class="nav-link" href="employees.html">Employee Management</a>
+      <a class="nav-link" href="faculty.html">Faculty List</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Organization Setup</h4>
+      <a class="nav-link active" href="departments.html">Departments</a>
+      <a class="nav-link" href="colleges.html">Colleges</a>
+      <a class="nav-link" href="positions.html">Company Positions</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Leave Management</h4>
+      <a class="nav-link" href="leave-types.html">Leave Types</a>
+      <a class="nav-link" href="leave-credit.html">Leave Credit Allocation</a>
+      <a class="nav-link" href="leave-requests.html">Leave Requests</a>
+      <a class="nav-link" href="leave-summary.html">Leave Summary</a>
+      <a class="nav-link" href="leave-calendar.html">Leave Calendar</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Overtime / CTO / OBT</h4>
+      <a class="nav-link" href="overtime.html">Overtime</a>
+      <a class="nav-link" href="cto.html">CTO</a>
+      <a class="nav-link" href="obt.html">OBT</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Timekeeping</h4>
+      <a class="nav-link" href="holidays.html">Holidays & Non-Working Days</a>
+      <a class="nav-link" href="cutoff.html">Cut-Off Dates</a>
+      <a class="nav-link" href="attendance.html">Daily Attendance</a>
+      <a class="nav-link" href="attendance-summary.html">Attendance Summary Reports</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Administration</h4>
+      <a class="nav-link" href="user-accounts.html">User Accounts</a>
+      <a class="nav-link" href="user-permissions.html">User Types & Permissions</a>
+      <a class="nav-link" href="system-logs.html">System Logs</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Account</h4>
+      <a class="nav-link" href="profile.html">My Profile</a>
+      <a class="nav-link" href="notifications.html">Notifications</a>
+    </div>
+    <div class="sidebar-group">
+      <h4>Help</h4>
+      <a class="nav-link" href="#faq">FAQ</a>
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="breadcrumb">
+      <a href="../web.html">Web App</a><span class="sep">/</span><span class="current">Departments</span>
+    </div>
+    <div class="page-hero" style="padding-top:0;">
+      <h1 style="font-size:26px;"><span class="section-icon" style="display:inline-flex; vertical-align:middle; margin-right:8px;">🏢</span>Departments</h1>
+      <p class="lead">Departments group employees for reporting and are tagged with a color used throughout lists, calendars, and reports.</p>
+    </div>
+
+    <section id="departments" class="doc-section" style="margin-bottom:0; padding-top:0;">
+
+      <div class="shot-grid">
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/07-department-list.png" alt="Department list"></div>
+          <figcaption><div class="cap-title"><span class="badge b-view">Display</span> Department List</div><p>All departments with their code and color tag.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/08-department-add.png" alt="Add department"></div>
+          <figcaption><div class="cap-title"><span class="badge b-add">Add</span> Add Department</div><p>Create a department: code, name, and badge color (with a live preview).</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-frame"><img src="../assets/img/web/09-department-edit.png" alt="Edit department"></div>
+          <figcaption><div class="cap-title"><span class="badge b-edit">Edit</span> Edit Department</div><p>Update an existing department's name or color.</p></figcaption>
+        </figure>
+      </div>
+      <div class="rules-box">
+        <h3>Rules &amp; Validation</h3>
+        <ul>
+          <li><strong>Department code</strong> — required, <strong>must be unique</strong>.</li>
+          <li><strong>Department name</strong> — required.</li>
+          <li><strong>Badge color</strong> — required (pick a preset or enter a custom hex color).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="faq" class="doc-section faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <p class="lead">Common questions about Departments.</p>
+      <div class="faq-item">
+        <div class="faq-q">How is a department code different from a college code?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>A <strong>Department</strong> is the top-level organizational grouping (e.g. Higher Education, Basic Education). A <strong>College</strong> is an academic unit that belongs to a department — see <a href="../web/colleges.html">Colleges</a>.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can I delete a department that already has employees in it?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>The system is built around editing rather than deleting departments in active use — reassign or archive affected records first, and consult HR before removing a department with existing history.</p></div>
+      </div>
+    </section>
+
+    <div class="pager">
+      <a class="prev" href="faculty.html"><span class="pager-label">&larr; Previous</span><span class="pager-title">Faculty List</span></a>
+      <a class="next" href="colleges.html"><span class="pager-label">Next &rarr;</span><span class="pager-title">Colleges</span></a>
+    </div>
+  </main>
+</div>
+
+<div class="sidebar-overlay"></div>
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<div class="lightbox"><button class="lb-close">✕</button><img src="" alt=""></div>
+
+<footer class="docs-footer">&copy; 2026 THE LEWIS COLLEGE &mdash; TLC-HRIS Online Documentation</footer>
+
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
