@@ -1,0 +1,122 @@
+[
+  {
+    "file": "00-login.png",
+    "title": "Login Screen",
+    "desc": "Mobile sign-in screen. Employees sign in with the same username and password used on the web app."
+  },
+  {
+    "file": "01-home.png",
+    "title": "Home / Dashboard",
+    "desc": "Landing tab after login: leave credit snapshot, quick status for Leave/Overtime/CTO/OBT, birthdays, work anniversaries, and attendance highlights."
+  },
+  {
+    "file": "02-requests-hub.png",
+    "title": "Requests Hub",
+    "desc": "Central hub linking to the four self-service request types: Leave, Overtime, CTO, and OBT."
+  },
+  {
+    "file": "03-notifications.png",
+    "title": "Notifications",
+    "desc": "Push/in-app notifications for approvals, rejections, and status updates on the employee’s requests."
+  },
+  {
+    "file": "04-profile-hub.png",
+    "title": "Profile Hub",
+    "desc": "Menu linking to the employee’s profile, attendance, weekly schedule, profile-change requests, and account settings."
+  },
+  {
+    "file": "05-profile-account.png",
+    "title": "My Account & Settings",
+    "desc": "Account settings: contact/account info, appearance (system/light/dark), change password, and sign out."
+  },
+  {
+    "file": "06-profile-employee.png",
+    "title": "My Employee Profile",
+    "desc": "Read-only view of the employee’s personal, contact, and employment information on file with HR."
+  },
+  {
+    "file": "07-profile-my-requests.png",
+    "title": "My Profile Requests",
+    "desc": "Status list of profile-change requests the employee has submitted (approved, cancelled, pending)."
+  },
+  {
+    "file": "08-profile-request-change.png",
+    "title": "Request a Profile Change",
+    "desc": "Form for requesting an update to personal info, work experience, or education — changes require HR approval before taking effect."
+  },
+  {
+    "file": "09-leave-list.png",
+    "title": "My Leave Requests",
+    "desc": "List of the employee’s filed leave requests with status (Approved, Cancelled, Pending) and a shortcut to Leave Credits."
+  },
+  {
+    "file": "10-leave-new.png",
+    "title": "File a Leave Request",
+    "desc": "Form for filing a new leave request: leave type, date range, day-by-day time schedule, and reason."
+  },
+  {
+    "file": "11-leave-credits.png",
+    "title": "Leave Credits",
+    "desc": "Per leave-type balance for the current school year: allocated, used, and days remaining."
+  },
+  {
+    "file": "12-overtime-list.png",
+    "title": "My Overtime Requests",
+    "desc": "List of the employee’s filed overtime requests with date, time range, and approval status."
+  },
+  {
+    "file": "13-overtime-new.png",
+    "title": "File an Overtime Request",
+    "desc": "Form for filing overtime: date, time in/out, requested hours, and purpose."
+  },
+  {
+    "file": "14-cto-list.png",
+    "title": "My CTO Requests",
+    "desc": "List of the employee’s Compensatory Time-Off (CTO) requests, pairing worked overtime with time off taken."
+  },
+  {
+    "file": "15-cto-new.png",
+    "title": "File a CTO Request",
+    "desc": "Form for filing a CTO request: the overtime work rendered and the corresponding time off requested."
+  },
+  {
+    "file": "16-obt-list.png",
+    "title": "My OBT Requests",
+    "desc": "List of the employee’s Official Business Travel (OBT) requests with destination, dates, and status."
+  },
+  {
+    "file": "17-obt-new.png",
+    "title": "File an OBT Request",
+    "desc": "Form for filing official business travel: travel dates, destination, purpose, transportation, estimated expenses, and optional accompanying staff."
+  },
+  {
+    "file": "18-attendance.png",
+    "title": "My Attendance",
+    "desc": "Daily time-in/time-out logs for the employee over a selected date range."
+  },
+  {
+    "file": "19-schedule.png",
+    "title": "My Weekly Schedule",
+    "desc": "The employee’s assigned work days and hours for the current schedule period."
+  },
+  {
+    "file": "20-leave-detail.png",
+    "title": "Leave Request Detail",
+    "desc": "Detail view of a single leave request: dates, reason, and the approval trail (immediate head + HR)."
+  },
+  {
+    "file": "21-overtime-detail.png",
+    "title": "Overtime Request Detail",
+    "desc": "Detail view of a single overtime request: date, time range, hours, purpose, and approval trail."
+  },
+  {
+    "file": "22-cto-detail.png",
+    "title": "CTO Request Detail",
+    "desc": "Detail view of a single CTO request showing both the overtime worked and the time off taken."
+  },
+  {
+    "file": "23-obt-detail.png",
+    "title": "OBT Request Detail",
+    "desc": "Detail view of a single official business travel request: destination, dates, purpose, and approval trail."
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "file": "00-login.png",
+    "title": "Login Page",
+    "desc": "The TLC-HRIS sign-in screen. Employees sign in with their username and password, or with their Google work account via the \"Google Account\" button."
+  },
+  {
+    "file": "01-dashboard.png",
+    "title": "Dashboard",
+    "desc": "Landing page after login. Shows a calendar, upcoming birthdays/anniversaries, and quick-glance widgets for the signed-in employee."
+  },
+  {
+    "file": "02-employee-list.png",
+    "title": "Employee List",
+    "desc": "Master list of all employees with search/filter and an Actions menu per row for viewing, editing, and managing each record."
+  },
+  {
+    "file": "03-employee-bulk-upload.png",
+    "title": "Bulk Upload Employees",
+    "desc": "Modal for importing many employee records at once from an Excel (.xlsx/.xls) file, max 10MB, using the downloadable template."
+  },
+  {
+    "file": "04-employee-add.png",
+    "title": "Add Employee",
+    "desc": "Employee registration form used to add a new employee: personal info, contact/address, employment details, education, and work experience."
+  },
+  {
+    "file": "05-employee-view.png",
+    "title": "Employee Profile (View)",
+    "desc": "Read-only profile view of a single employee showing personal, employment, and organizational details."
+  },
+  {
+    "file": "06-employee-edit.png",
+    "title": "Edit Employee",
+    "desc": "Edit form for updating an existing employee record, pre-filled with the employee’s current information."
+  },
+  {
+    "file": "07-department-list.png",
+    "title": "Department List",
+    "desc": "List of departments, each with a color tag used throughout the system, with Add/Edit actions."
+  },
+  {
+    "file": "08-department-add.png",
+    "title": "Add Department",
+    "desc": "Form for creating a new department: a unique department code, name, and a color used to tag it in lists and calendars."
+  },
+  {
+    "file": "09-department-edit.png",
+    "title": "Edit Department",
+    "desc": "Form for editing an existing department’s name and color code."
+  },
+  {
+    "file": "10-college-list.png",
+    "title": "Colleges List",
+    "desc": "List of colleges (academic units), each linked to a department, with Add/Edit actions."
+  },
+  {
+    "file": "11-college-add.png",
+    "title": "Add College",
+    "desc": "Form for creating a new college: a unique college code, name, and its parent department."
+  },
+  {
+    "file": "12-position-list.png",
+    "title": "Company Positions",
+    "desc": "List of job positions used across the system, with Active/Archived tabs and Add/Edit actions."
+  },
+  {
+    "file": "13-position-add.png",
+    "title": "Add Position",
+    "desc": "Form for creating a new company position/job title."
+  },
+  {
+    "file": "14-leavetype-list.png",
+    "title": "Leave Type Management",
+    "desc": "List of configured leave types (e.g. Vacation, Sick) with their annual allocation and rules."
+  },
+  {
+    "file": "15-leavetype-add.png",
+    "title": "Add Leave Type",
+    "desc": "Form for defining a new leave type: code, name, annual allocation, max days per request, minimum service months, negative-balance limit, and optional gender restriction."
+  },
+  {
+    "file": "16-leavecredit-list.png",
+    "title": "Leave Credit Allocation",
+    "desc": "Per-employee leave credit balances for each leave type and school year, with Add/Edit actions."
+  },
+  {
+    "file": "17-leave-my-requests.png",
+    "title": "My Leave Requests",
+    "desc": "The signed-in employee’s own leave requests and their approval status."
+  },
+  {
+    "file": "19-leave-for-approval.png",
+    "title": "Leave Approvals (Immediate Head)",
+    "desc": "Queue of pending leave requests awaiting the immediate head’s approval or rejection."
+  },
+  {
+    "file": "20-leave-hr-tracking.png",
+    "title": "HR Leave Tracking",
+    "desc": "HR-level view of all leave requests company-wide, with options to update, void, or override a request."
+  },
+  {
+    "file": "21-leave-summary.png",
+    "title": "Leave Summary",
+    "desc": "Consolidated summary of leave usage per employee, with Add/View/Delete actions."
+  },
+  {
+    "file": "22-leave-summary-add.png",
+    "title": "Add Leave Entry",
+    "desc": "Form for manually recording a leave entry in an employee’s summary."
+  },
+  {
+    "file": "23-leave-calendar.png",
+    "title": "Leave Calendar",
+    "desc": "Company-wide calendar view of approved leaves, holidays, and events."
+  },
+  {
+    "file": "24-overtime-my-requests.png",
+    "title": "My Overtime Requests",
+    "desc": "The signed-in employee’s overtime requests and their approval status."
+  },
+  {
+    "file": "26-overtime-for-approval.png",
+    "title": "Overtime Approvals",
+    "desc": "Queue of pending overtime requests awaiting approval by the immediate head."
+  },
+  {
+    "file": "27-overtime-hr-tracking.png",
+    "title": "HR Overtime Tracking",
+    "desc": "HR-level view of all overtime requests with tracking and override options."
+  },
+  {
+    "file": "28-cto-my-requests.png",
+    "title": "My CTO Requests",
+    "desc": "The signed-in employee’s Compensatory Time-Off (CTO) requests and their status."
+  },
+  {
+    "file": "30-cto-for-approval.png",
+    "title": "CTO Approvals",
+    "desc": "Queue of pending CTO requests awaiting approval by the immediate head."
+  },
+  {
+    "file": "31-obt-my-requests.png",
+    "title": "My OBT Requests",
+    "desc": "The signed-in employee’s Official Business Travel (OBT) requests and their status."
+  },
+  {
+    "file": "33-obt-for-approval.png",
+    "title": "OBT Approvals",
+    "desc": "Queue of pending official business travel requests awaiting approval."
+  },
+  {
+    "file": "34-holiday-list.png",
+    "title": "Holidays & Non-Working Days",
+    "desc": "List of configured holidays used by the attendance and leave modules, with Add/Edit/Delete actions."
+  },
+  {
+    "file": "35-holiday-add.png",
+    "title": "Add Holiday",
+    "desc": "Form for adding a holiday: name, date, and type (whole day or a specific time range)."
+  },
+  {
+    "file": "36-holiday-delete.png",
+    "title": "Delete Holiday (Confirmation)",
+    "desc": "Confirmation dialog shown before a holiday is permanently deleted."
+  },
+  {
+    "file": "37-cutoff-list.png",
+    "title": "Cut-Off Dates",
+    "desc": "Payroll cut-off periods used by attendance summaries, with Add/Edit/Delete actions."
+  },
+  {
+    "file": "38-cutoff-add.png",
+    "title": "Add Cut-Off Date",
+    "desc": "Form for defining a new payroll cut-off period."
+  },
+  {
+    "file": "39-daily-attendance.png",
+    "title": "Employee Daily Attendance",
+    "desc": "Daily time-in/time-out log for all employees, sourced from the biometric/attendance device."
+  },
+  {
+    "file": "40-user-accounts.png",
+    "title": "User Accounts",
+    "desc": "List of system user accounts linked to employees, with account status and Edit action."
+  },
+  {
+    "file": "41-user-account-edit.png",
+    "title": "Edit User Account",
+    "desc": "Form for changing a user’s role (user type), active status, or resetting their password."
+  },
+  {
+    "file": "42-user-types.png",
+    "title": "User Types & Privileges",
+    "desc": "List of roles (user types) with Create/Edit/Delete actions and per-role privilege assignment."
+  },
+  {
+    "file": "43-user-type-add.png",
+    "title": "Create User Type",
+    "desc": "Form for creating a new role and selecting which system privileges it grants."
+  },
+  {
+    "file": "44-user-type-edit.png",
+    "title": "Edit Permissions",
+    "desc": "Modal for changing which privileges are assigned to an existing role."
+  },
+  {
+    "file": "45-profile.png",
+    "title": "My Profile",
+    "desc": "The signed-in user’s own profile and account settings, including changing their password."
+  },
+  {
+    "file": "46-notifications.png",
+    "title": "Notifications",
+    "desc": "In-app notification center for approvals, requests, and system alerts."
+  },
+  {
+    "file": "47-faculty-list.png",
+    "title": "Faculty List",
+    "desc": "List of teaching staff with their teaching load, editable via the Actions menu."
+  },
+  {
+    "file": "48-system-logs.png",
+    "title": "System Logs",
+    "desc": "Audit trail of user actions across the system for accountability and troubleshooting."
+  }
+]
