@@ -117,7 +117,9 @@
           <li><strong>Start date / end date</strong> — required, valid dates.</li>
           <li><strong>Reason</strong> — required.</li>
           <li><strong>Day-by-day schedule</strong> — required, at least one day, each with its own date and time range.</li>
-          <li>Requests follow a two-step approval chain: <strong>Immediate Head</strong> &rarr; <strong>HR</strong>. Both must approve before a request is finalized as Approved.</li>
+          <li>Requests normally follow a two-step approval chain: <strong>Immediate Head</strong> &rarr; <strong>HR</strong>. Both must approve before a request is finalized as Approved.</li>
+          <li>If the employee has <strong>no immediate head assigned</strong>, the head step is skipped entirely and the request goes straight into HR's queue for approval.</li>
+          <li>If HR assigns that employee an immediate head <strong>while the request is still awaiting HR</strong> (not yet approved), the request is automatically routed back to require that head's approval first before HR can finalize it. Requests HR has already approved are not affected.</li>
           <li>An employee can only cancel a request that is still pending; approved requests can only be voided by HR.</li>
           <li>Available leave credit, gender restriction, and minimum service months (configured under Leave Types) are enforced when filing.</li>
         </ul>
@@ -134,6 +136,10 @@
       <div class="faq-item">
         <div class="faq-q">Can I edit or cancel a request after submitting it?<span class="chev">⌄</span></div>
         <div class="faq-a"><p>You can cancel a request yourself only while it is still Pending. Once approved, only HR can void or correct it (see <a href="../web/leave-requests.html">HR Tracking</a>).</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What happens if the employee has no immediate head?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>Their request skips the head-approval step and goes straight to HR. If HR later assigns them a head while the request is still pending HR review, it will automatically require that head's approval before HR can finalize it.</p></div>
       </div>
     </section>
 

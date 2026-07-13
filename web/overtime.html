@@ -113,6 +113,8 @@
           <li><strong>Approved/requested hours</strong> — required, numeric.</li>
           <li><strong>Purpose</strong> — required.</li>
           <li>Rejecting a request (by the head or HR) requires <strong>remarks</strong> (max 1000 characters) explaining why.</li>
+          <li>Requests normally follow a two-step approval chain: <strong>Immediate Head</strong> &rarr; <strong>HR</strong>. If the employee has <strong>no immediate head assigned</strong>, the request skips straight to HR.</li>
+          <li>If HR assigns that employee a head <strong>while the request is still awaiting HR</strong>, it is automatically routed back to require that head's approval first. Requests HR has already approved are not affected.</li>
         </ul>
       </div>
     </section>
@@ -127,6 +129,10 @@
       <div class="faq-item">
         <div class="faq-q">Can I edit or cancel an overtime request?<span class="chev">⌄</span></div>
         <div class="faq-a"><p>You can cancel it yourself only while it is still Pending.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What happens if the employee has no immediate head?<span class="chev">⌄</span></div>
+        <div class="faq-a"><p>Their request skips the head-approval step and goes straight to HR. If HR later assigns them a head while the request is still pending HR review, it will automatically require that head's approval before HR can finalize it.</p></div>
       </div>
     </section>
 
