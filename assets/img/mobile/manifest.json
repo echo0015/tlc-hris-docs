@@ -7,7 +7,7 @@
   {
     "file": "01-home.png",
     "title": "Home / Dashboard",
-    "desc": "Landing tab after login: leave credit snapshot, quick status for Leave/Overtime/CTO/OBT, birthdays, work anniversaries, and attendance highlights."
+    "desc": "Landing tab after login: greeting with today's date, one-tap Quick Actions (Leave, Overtime, CTO, OBT, Attendance), leave credit balances with progress bars, Today's Celebrations (birthdays & anniversaries), Early Check-Ins (Top 5 / Daily toggle), upcoming holidays, and a company calendar."
   },
   {
     "file": "02-requests-hub.png",
@@ -22,7 +22,7 @@
   {
     "file": "04-profile-hub.png",
     "title": "Profile Hub",
-    "desc": "Menu linking to the employee’s profile, attendance, weekly schedule, profile-change requests, and account settings."
+    "desc": "Identity card (photo, employee ID, company position) followed by a menu linking to the employee’s profile, attendance, weekly schedule, profile-change requests, and account settings."
   },
   {
     "file": "05-profile-account.png",
